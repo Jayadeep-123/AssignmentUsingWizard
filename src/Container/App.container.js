@@ -12,8 +12,11 @@ import WareHouse from "../Components/SidebarComponents/WareHouse/WareHouse";
 import Styles from './AppContainer.module.css'
 
 
+
 const Appcontainer = () =>{
     return(
+    
+          
 
        <aside className={Styles.AppContainer}>
         <Student/>
@@ -28,6 +31,7 @@ const Appcontainer = () =>{
         <CCTV/>
         <Hrms/>
        </aside> 
+    
         
 
     )
