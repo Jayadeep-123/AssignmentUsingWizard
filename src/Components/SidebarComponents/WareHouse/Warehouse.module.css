@@ -1,0 +1,8 @@
+.Warehouse{
+  display: flex;
+  align-items: center; 
+  gap: 8px;
+  height:25px;
+  color: #595E6C;
+
+}
