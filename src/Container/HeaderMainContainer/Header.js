@@ -1,7 +1,7 @@
 import styles from './Header.module.css';
-import LogoComponent from '../Logo/LogoComponent';
-import HeaderProfile from '../Profile/HeaderProfile';
-import SearchWidget from '../../../Widgets/SearchInput/SearchInput';
+import LogoComponent from '../../Components/HeaderComponents/Logo/LogoComponent';
+import HeaderProfile from '../../Components/HeaderComponents/Profile/HeaderProfile';
+import SearchWidget from '../../Widgets/SearchInput/SearchInput';
 
 const Header = () => {
     return (

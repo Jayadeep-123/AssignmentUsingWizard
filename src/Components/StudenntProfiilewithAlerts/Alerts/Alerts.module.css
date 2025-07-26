@@ -1,0 +1,92 @@
+.alertsSectionMainContainer {
+  background-color: #fff;
+ 
+  border-style: solid;
+  border-color: #E6E4F0;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.alertsSectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.alertsSectionTitle {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #252C32;
+}
+
+.alertsSectionFilter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.alertsSectionFilterText {
+  font-size: 14px;
+  color: #252C32;
+  font-weight: 400;
+}
+
+.alertsSectionFilterIcon {
+ 
+}
+
+.alertsSectionCardsContainer {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Updated AlertCard classes */
+.alertCard {
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px; 
+  flex: 1 1 30%;
+  border-right: 1px solid #eee;
+  padding-right: 12px;
+}
+
+.alertCard:last-child {
+  border-right: none;
+}
+
+.alertIcon {
+  padding-top: 4px;
+}
+
+.alertTitle {
+  /* No specific styling needed; inherits gap from .alertHeader */
+}
+
+/* Container for icon and title to align side by side */
+.alertHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and title */
+}
+
+.alertContent {
+  /* No additional styling needed; inherits gap from .alertCard */
+}
+
+.alertContent strong {
+  font-size: 14px;
+  color: #000;
+}
+
+.alertContent p {
+  font-size: 13px;
+  color: #444;
+  margin: 4px 0 0;
+}

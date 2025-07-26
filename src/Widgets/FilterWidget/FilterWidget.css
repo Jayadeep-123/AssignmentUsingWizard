@@ -1,0 +1,55 @@
+.filter-widget {
+  border: 1px solid #ccc;
+  /* border-radius: 16px; */
+  width: 330px;
+  background: #FDFDFD;
+  padding: 16px;
+}
+
+.filter-widget__heading {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.filter-widget__checkbox {
+  margin-top: 8px;
+}
+
+.filter-widget__section-title {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.filter-widget__divider {
+  margin: 16px 0;
+}
+
+.filter-widget__category-title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.filter-widget__button {
+  margin-top: 16px;
+  width: 100%;
+  
+}
+.filter-widget__section-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.filter-widget__section-label {
+  font-weight: 500;
+}
+
+.filter-widget__section-toggle {
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+

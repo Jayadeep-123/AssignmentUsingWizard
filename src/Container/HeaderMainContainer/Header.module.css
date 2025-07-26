@@ -12,8 +12,11 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    gap:138px;
-    padding:25px;
+    width:50%;
+    
+    /* padding:25px; */
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .header_right{

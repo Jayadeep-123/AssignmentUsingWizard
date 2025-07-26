@@ -1,11 +1,21 @@
 .AppContainer{
     width:15%;
     height:92vh;
-    /* margin-top: 8vh; */
     background-color: #FFFFFF;
     border-right: 1px solid #E6E4F0;
-    padding-left:10px;
-    /* padding-bottom:0px; */
+/* padding-left:10px; */
+
+}
+.contentWrapper{
+    width:85%
+}
+.link {
+  text-decoration: none;
+}
+
+.sidebarWrapper{
+    padding:15px;
+    
     display:flex;
     flex-direction: column;
     gap:15px;

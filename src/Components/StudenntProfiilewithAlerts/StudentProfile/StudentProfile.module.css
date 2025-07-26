@@ -1,0 +1,66 @@
+.profileSectionMainContainer {
+  background: var(--background-url) no-repeat;
+  background-size: cover;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #E6E4F0;
+}
+
+.profileSectionHeader {
+  margin-bottom: 20px;
+}
+
+.profileSectionTitle {
+  margin: 0 0 5px 0;
+  color: #252C32;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.profileSectionDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2D2D2D;
+  margin: 0;
+}
+
+.profileSectionSearchArea {
+  display: flex;
+  justify-content: left;
+  position: relative; /* Make this relative to position the dropdown absolutely */
+}
+
+.profileSectionSearchBar {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #DCDCDC;
+}
+
+.profileSectionSearchInput {
+  &::placeholder {
+    color: #9C9C9C;
+  }
+}
+
+.filterDropdown {
+  position: absolute;
+  top: 100%; /* Position directly below the search bar */
+  left: 0;
+  width: 100%; /* Match width of search bar or adjust as needed */
+  z-index: 10; /* Ensure it appears above other content */
+  background-color: white; /* Add background to make it look like a dropdown */
+  border: 1px solid #DCDCDC; /* Match search bar border */
+  border-top: none; /* Seamless connection to search bar */
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for dropdown effect */
+}
