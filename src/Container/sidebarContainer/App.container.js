@@ -12,6 +12,7 @@ import Student from "../../Components/SidebarComponents/Students/Students";
 import WareHouse from "../../Components/SidebarComponents/WareHouse/WareHouse";
 import Styles from './AppContainer.module.css';
 import StudentSearch from '../studentSearchContainer/studentSearchcontainer';
+import StudentProfileContainer from '../StudentContainers/StudentProfileCard';
 
 const Appcontainer = () => {
   return (
@@ -36,6 +37,7 @@ const Appcontainer = () => {
         <Routes>
           <Route path="/"/>
           <Route path="/student" element={<StudentSearch />} />
+          <Route path='/student/:id' element={<StudentProfileContainer/>}/>
           {/* <Route path="/application" element={<Application />} />
           <Route path="/employee" element={<Employee />} />
           <Route path="/fleet" element={<Fleet />} />

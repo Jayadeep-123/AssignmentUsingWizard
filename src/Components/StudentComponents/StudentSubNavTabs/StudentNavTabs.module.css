@@ -1,0 +1,30 @@
+.studentTabs {
+  display: flex;
+}
+
+.navTabLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.tabLink {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #252C32;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabLink:hover {
+  color: #3425ff;
+}
+
+.active {
+  color: rgba(52, 37, 255, 1);
+  border-bottom: 2px solid #3425ff;
+  font-weight: 600;
+}

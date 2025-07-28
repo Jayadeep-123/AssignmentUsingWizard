@@ -1,0 +1,56 @@
+.studentProfileBasics {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.studentAdminNo {
+  font-size: 12px;
+  color: #6E7C87;
+  margin: 0;
+}
+
+.studentAdminId {
+  color: #000;
+}
+
+.studentName {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.studentInfoLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #333;
+}
+
+.studentTags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.studentTagBlue {
+  border-radius: 4px;
+  background: #0F6CBD;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.studentTagGreen {
+  background-color: rgba(75, 144, 31, 1);
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: sans-serif;
+}

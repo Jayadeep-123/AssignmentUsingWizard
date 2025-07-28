@@ -1,0 +1,31 @@
+.transportdetailsdropdown{
+    border-radius: 6px;
+    border: 1px solid #E6E4F0;
+    background: #FFF;
+    width: 100%;
+}
+
+.dropdown_content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+
+.dropdown_left_content{
+    width: 45%;
+    gap: 23px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr );
+}
+
+.dropdown_right_content{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    width: 100%;
+}

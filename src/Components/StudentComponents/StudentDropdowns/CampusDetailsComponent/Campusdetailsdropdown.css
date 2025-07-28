@@ -1,0 +1,19 @@
+.campusdetailsdropdown{
+     border-radius: 10px;
+    border: 1px solid #E6E4F0;
+    box-shadow: 0 4px 8px 0 rgba(6, 3, 21,0.08);
+}
+
+.campusdetailsdropdown .dropdown_content{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.student_campus_course{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+
+.dropdown_heading_value{
+    display: block;
+}
+
+.dropdown_heading_value .left_side_heading{
+    margin: 0;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dropdown_heading_value .value{
+    margin: 0;
+    color: #4F4F4F;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.student_main_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.student_main_content p{
+    margin: 0;
+}
+
+.student_main_content .left_side_heading{
+    color: #82808F;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.student_main_content .value{
+    background-color: #E9E8EC;
+    color: #9D9BA1;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.right_side_heading{
+    text-align: right;
+}

@@ -1,0 +1,25 @@
+/* StatusofTransportdetails.css */
+.transport-details-status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 4px;
+  border-radius: 4px; /* Slight rounding to match the overall design */
+}
+
+.transport-details-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #757575; /* Gray color for "Status:" label */
+  margin-right: 4px; /* Space between label and status */
+}
+
+.transport-details-status {
+  font-size: 12px;
+  font-weight: 500;
+  color: #08B61A; /* Green color for "Assigned" */
+  
+  padding: 4px 10px;
+  border-radius: 20px; /* Rounded corners for the status badge */
+}

@@ -1,0 +1,59 @@
+.fee-details-status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fee-details-status-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+  margin-right: 9px;
+}
+
+.fee-details-status-label {
+  color: #6b6b6b;
+  font-weight: 500;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.fee-details-status-amount {
+  color: #e53935;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.fee-details-status-bar {
+  display: flex;
+  width: 100%;  /* Change this to 100% for better responsiveness */
+  max-width: 150px;  /* Set a max width to control the layout */
+  height: 6px;  /* Increased height for better visibility */
+  gap: 3px;
+}
+
+.fee-details-status-bar-segment {
+  flex: 1;
+  transform: skewX(-20deg);
+  border-radius: 3px;  /* Slightly rounded edges for better appearance */
+}
+
+.fee-details-status-bar-segment:first-child {
+  margin-left: 0;
+}
+
+.fee-details-status-bar-segment:last-child {
+  margin-right: 0;
+}
+
+/* Optional: Responsive Fixes */
+@media (max-width: 600px) {
+  .fee-details-status-container {
+    align-items: flex-start;
+  }
+
+  .fee-details-status-bar {
+    width: 90%;  /* Adjust width for smaller screens */
+  }
+}

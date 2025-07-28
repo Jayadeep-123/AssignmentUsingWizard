@@ -1,0 +1,47 @@
+.pocket-money-status-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pocket-money-status-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+  margin-right: 9px;
+}
+
+.pocket-money-status-label {
+  color: #6b6b6b;
+  font-weight: 500;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.pocket-money-status-amount {
+  color: #e53935;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.pocket-money-status-bar {
+  display: flex;
+  width: 100%;
+  max-width: 150px;
+  height: 6px;
+  gap: 3px;
+}
+
+.pocket-money-status-bar-segment {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.pocket-money-status-bar-segment:first-child {
+  margin-left: 0;
+}
+
+.pocket-money-status-bar-segment:last-child {
+  margin-right: 0;
+}

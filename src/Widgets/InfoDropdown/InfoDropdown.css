@@ -1,0 +1,121 @@
+/* Container for the whole dropdown */
+.dropdown {
+  width: 100%;
+}
+
+.dropdown_parent {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 0 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.dropdown_icon_name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dropdown_label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #56555c;
+}
+
+.dropdown_right_side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.student_status {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown_labels {
+  margin: 10px 16px 14px 16px;
+  display: flex;
+  gap: 10px;
+}
+
+.label1,
+.label2 {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 10px;
+  border-radius: 33px;
+  margin: 0;
+}
+
+.label1 {
+  background-color: #81f9494d;
+  color: #4a74fd;
+}
+
+.label2 {
+  background-color: #ff55ee4d;
+  color: #710062;
+}
+
+/* Styles for the dropdown in different variants */
+.student_main .dropdown_icon_name {
+  gap: 10px;
+}
+
+.student_main .dropdown_label {
+  color: #56555c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.student_main .dropdown_right_side {
+  display: flex;
+  gap: 20px;
+}
+
+.student_main .student_status {
+  display: block;
+}
+
+.student_main .dropdown_labels {
+  display: none;
+}
+
+/* Arrow styles */
+.arrow img {
+  width: 16px;
+  height: 16px;
+}
+
+.arrow img {
+  transition: transform 0.3s ease;
+}
+
+.arrow img.up {
+  transform: rotate(180deg);
+}
+
+/* Optional: Dropdown variant styles */
+.student_main_dropdown {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.student_main_dropdown .dropdown_labels {
+  display: none;
+}
+
+.student_main_dropdown .dropdown_parent {
+  border-radius: 0;
+  box-shadow: none;
+}
