@@ -1,4 +1,9 @@
-
+.student_personalinfo_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
 .student_personalinfo_heading{
     display: flex;
     align-items: center;

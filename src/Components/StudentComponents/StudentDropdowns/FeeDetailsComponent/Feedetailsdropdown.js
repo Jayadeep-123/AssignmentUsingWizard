@@ -1,8 +1,10 @@
-import InfoDropdown from "../../../Widgets/InfoDropdowns/InfoDropdown"
-import DropdownInformation from "../../../Widgets/DropdownsInformation/DropdownInformation"
-import fileicon from "../../../assets/fileicon"
+
+
+import fileicon from "../../../../assets/fileicon"
 import "./Feedetailsdropdown.css"
 import FeedetailsStatus from "./FeedetailsStatus"
+import InfoDropdown from "../../../../Widgets/InfoDropdown/InfoDropdown"
+import DropdownInformation from "../../../../Widgets/DropdownsInformation/DropdownInformation"
 
 const Feedetailsdropdown = ({isOpen, onToggle}) =>{
     return(

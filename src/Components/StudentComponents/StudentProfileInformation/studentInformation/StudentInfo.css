@@ -1,0 +1,5 @@
+.student_information_dropdowns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

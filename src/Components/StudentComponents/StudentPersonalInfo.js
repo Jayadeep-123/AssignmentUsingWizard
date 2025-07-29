@@ -1,7 +1,7 @@
-import Personaldetailsdropdown from "./StudentComponents/ProfileDetailsComponent/Profiledetailsdropdown"
-import Campusdetailsdropdown from "./StudentComponents/CampusDetailsComponent/Campusdetailsdropdown"
-import Additonaldetailsdropdown from "./StudentComponents/AdditionalDetailsComponent/Additionaldetailsdropdown"
-import infoicon from "../assets/infoicon"
+import Profiledetailsdropdown from "../../Components/StudentComponents/StudentDropdowns/ProfileDetailsComponent/Profiledetailsdropdown"
+import Campusdetailsdropdown from "../../Components/StudentComponents/StudentDropdowns/CampusDetailsComponent/Campusdetailsdropdown"
+import Additonaldetailsdropdown from "../../Components/StudentComponents/StudentDropdowns/AdditionalDetailsComponent/Additionaldetailsdropdown"
+import infoicon from "../../assets/infoicon"
 import "./StudentPersonalInfo.css"
 import { useState } from "react"
 
@@ -21,7 +21,7 @@ const StudentPersonalInfo = () =>{
             {infoicon}<p>Information</p>
         </div>
         <div className="student_personalinfo_content">
-           <Personaldetailsdropdown isOpen= {openSection.personal} onToggle={()=>toggleContent("personal")}/>
+           <Profiledetailsdropdown isOpen= {openSection.personal} onToggle={()=>toggleContent("personal")}/>
            <Campusdetailsdropdown isOpen= {openSection.campus} onToggle={()=>toggleContent("campus")}/>
            <Additonaldetailsdropdown isOpen= {openSection.additional} onToggle={()=>toggleContent("additional")}/>
         </div>

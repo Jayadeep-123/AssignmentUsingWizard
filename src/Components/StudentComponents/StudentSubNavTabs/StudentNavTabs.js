@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./StudentNavTabs.module.css";
 
 const tabs = [
-  { label: "Student Profile", path: "/student" },
+  { label: "Student Profile", path: "/student/:1" },
   { label: "Payments", path: "/student/payments" },
   { label: "Transport", path: "/transport" },
   { label: "Academics", path: "/academics" },

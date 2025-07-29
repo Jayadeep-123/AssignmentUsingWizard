@@ -1,6 +1,7 @@
-import InfoDropdown from "../../../Widgets/InfoDropdowns/InfoDropdown"
-import DropdownInformation from "../../../Widgets/DropdownsInformation/DropdownInformation"
-import documenticon from "../../../assets/documenticon"
+
+import DropdownInformation from "../../../../Widgets/DropdownsInformation/DropdownInformation";
+import InfoDropdown from "../../../../Widgets/InfoDropdown/InfoDropdown";
+import documenticon from "../../../../assets/documenticon"
 import "./profiledetailsdropdown.css"
 
 const Profiledetailsdropdown = ({isOpen, onToggle}) =>{

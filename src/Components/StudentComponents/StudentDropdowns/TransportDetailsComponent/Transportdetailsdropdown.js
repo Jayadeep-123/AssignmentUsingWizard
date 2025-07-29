@@ -1,13 +1,14 @@
 import TranspostDetailsInformation from "./TransportDetailsInformation";
-import calendericon from "../../../assets/calendericon";
-import InfoDropdown from "../../../Widgets/InfoDropdowns/InfoDropdown";
-import fileicon from "../../../assets/fileicon";
-import transporttype from "../../../assets/transporttype";
-import transportstatus from "../../../assets/transportstatus"
-import boardingstage from "../../../assets/boardingstage";
-import Map from "../../../assets/Map.png"
+import calendericon from "../../../../assets/calendericon";
+
+import fileicon from "../../../../assets/fileicon";
+import transporttype from "../../../../assets/transporttype";
+import transportstatus from "../../../../assets/transportstatus"
+import boardingstage from "../../../../assets/boardingstage";
+import Map from "../../../../assets/Map.png"
 import "./Transportdetailsdropdown.css"
 import Transportdetailsstatus from "./Transportdetailsstatus";
+import InfoDropdown from "../../../../Widgets/InfoDropdown/InfoDropdown";
 
 const Transportdetailsdropdown = ({isOpen, onToggle}) =>{
     return(

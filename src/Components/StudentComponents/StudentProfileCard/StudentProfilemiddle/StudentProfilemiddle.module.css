@@ -15,28 +15,39 @@
   box-sizing: border-box;
 }
 
+
 .studentProfileLeft {
   display: flex;
   gap: 1.2rem;
-  width: 30%;
+  /* width: 30%; */
   align-items: flex-start;
 }
 
 .studentProfileMiddle {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   width: 444px;
-  padding-top: 4px;
-  row-gap: 12px;
-  column-gap: 64px;
-  align-content: flex-start;
+  padding-top: 4px; 
+  align-content: space-between;
 }
 
 /* Info items (2 in row 1, 3 in row 2) */
 .infoItem {
   display: flex;
   flex-direction: column;
-  width: calc(50% - 32px); /* First two */
+  /* width: calc(50% - 32px); First two */
+}
+
+.student_profile_card_middle_data{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.student_profile_card_section{
+  display: flex;
+  align-items: flex-end;
 }
 
 .infoItem:nth-child(n+3) {

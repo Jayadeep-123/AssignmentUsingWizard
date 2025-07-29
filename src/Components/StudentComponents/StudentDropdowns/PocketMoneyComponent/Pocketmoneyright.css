@@ -1,0 +1,74 @@
+ 
+/* Container to center the content */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+ 
+.top {
+    width: 180px;
+    height: 260px;
+    border-radius: 24px;
+    background: linear-gradient(145deg, rgb(103, 48, 161), rgb(150, 67, 199));
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+ 
+.admission-no {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+ 
+.admission-number {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+ 
+.student-info {
+    margin-top: 12px;
+}
+ 
+.student-name {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+ 
+.student-label {
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+ 
+.balance {
+    position: absolute;
+    bottom: 65px;
+    right: 20px;
+    text-align: right;
+}
+ 
+.balance-label {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+ 
+.balance-amount {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+ 
+.bottom-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 10px 12px;
+    display: flex;
+    gap: 10px;
+}
+ 
+ 
+ 

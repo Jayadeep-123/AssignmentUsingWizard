@@ -26,11 +26,17 @@ const StudentProfilemiddle = ({ studentId, data }) => {
 
         {/* Middle Info */}
         <div className={styles.studentProfileMiddle}>
+          <div className={styles.student_profile_card_middle_data}>
           <InfoItem label="Course Track / Orientation" value={data.course_track} />
           <InfoItem label="Admission Type" value={data.admission_type} />
+          </div>
+          <div className={styles.student_profile_card_middle_data}>
           <InfoItem label="Admission Status" value={data.admission_status} />
           <InfoItem label="Student Type" value={data.student_type} />
-          <InfoItem label="Section" value={data.section} />
+          </div>
+          <div className={styles.student_profile_card_section}>
+              <InfoItem label="Section" value={data.section} />
+          </div>
         </div>
 
         {/* Right Section */}

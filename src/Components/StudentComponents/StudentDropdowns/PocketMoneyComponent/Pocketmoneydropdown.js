@@ -1,8 +1,10 @@
-import InfoDropdown from "../../../Widgets/InfoDropdowns/InfoDropdown"
-import DropdownInformation from "../../../Widgets/DropdownsInformation/DropdownInformation"
-import fileicon from "../../../assets/fileicon"
+
+import DropdownInformation from "../../../../Widgets/DropdownsInformation/DropdownInformation"
+import InfoDropdown from "../../../../Widgets/InfoDropdown/InfoDropdown"
+import fileicon from "../../../../assets/fileicon"
 import "./Pocketmoneydropdown.css"
 import Pocketmoneystatus from "./Pocketmoneystatus"
+import Pocketmoneyright from "./Pocketmoneyright"
 // import pocketmoneyicon from "../../assets/pocketmoneyicon"
 
 const Pocketmoneydropdown  = ({isOpen, onToggle}) =>{
@@ -18,7 +20,7 @@ const Pocketmoneydropdown  = ({isOpen, onToggle}) =>{
                 <DropdownInformation heading = "Taken Amount" value="5,492" variant="student_main_content"/>
             </div>
             <div className="dropdown_content_right">
-
+                 <Pocketmoneyright/>
             </div>
         </div>
         }

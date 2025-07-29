@@ -1,7 +1,8 @@
 import React from "react";
 import StudentProfilemiddle from "../../Components/StudentComponents/StudentProfileCard/StudentProfilemiddle/StudentProfilemiddle";
-// import StudentInformation from "../../Components/StudentComponents/"
+
 import "./StudentProfileCard.css";
+import StudentLayout from "../../Components/StudentComponents/Layout/StudentLayout";
 
 const dummyStudentData = {
   studentName: "Devansh.N",
@@ -23,10 +24,8 @@ const StudentProfileContainer = () => {
           <div className="card">
             <StudentProfilemiddle studentId={studentId} data={dummyStudentData} />
           </div>
-          {/* <div>
-            <StudentInformation/>
-          </div> */}
-        
+          {/* Render StudentLayout here */}
+          <StudentLayout />
         </div>
       </div>
     </div>

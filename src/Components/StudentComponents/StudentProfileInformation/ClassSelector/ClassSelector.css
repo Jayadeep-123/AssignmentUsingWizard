@@ -1,0 +1,68 @@
+.student_dropdown_top_right {
+  background-color: #f5f4f8;
+  display: flex;
+  align-items: center;
+  border-radius: 22px;
+}
+
+.class-button {
+  margin: 0 5px;
+  padding: 6px 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size:14px;
+  font-weight: 400;
+  color: #61616161; /* Normal color */
+}
+
+.class-button.active {
+  background-color: blue; /* Selected background */
+  color: white; /* Selected text color */
+  border-radius: 5px;
+  border-radius: 22px;
+  font-size:14px;
+  font-weight: 400;
+}
+
+.more-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.more-container {
+  position: relative;
+}
+
+.classdropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.classdropdown .class-button {
+  width: 100%;
+  text-align: left;
+  border: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.classdropdown .class-button:hover {
+  background-color: #f0f0f0;
+}

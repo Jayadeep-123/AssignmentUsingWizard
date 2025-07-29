@@ -1,12 +1,12 @@
-import Feedetailsdropdown from "./StudentComponents/FeeDetailsComponent/Feedetailsdropdown"
-import Pocketmoneydropdown from "./StudentComponents/PocketMoneyComponent/Pocketmoneydropdown"
-import Transportdetailsdropdown from "./StudentComponents/TransportDetailsComponent/Transportdetailsdropdown"
-import Refundsdropdown from "./StudentComponents/RefundsComponent/Refundsdropdown"
-import Otherfeeheadsdropdown from "./StudentComponents/OtherFeeHeadsComponent/Otherfeeheadsdropdown"
+import Feedetailsdropdown from "../../StudentDropdowns/FeeDetailsComponent/Feedetailsdropdown"
+import Pocketmoneydropdown from "../../StudentDropdowns/PocketMoneyComponent/Pocketmoneydropdown"
+import Transportdetailsdropdown from "../../StudentDropdowns/TransportDetailsComponent/Transportdetailsdropdown"
+import Refundsdropdown from "../../StudentDropdowns/RefundsComponent/Refundsdropdown"
+import Otherfeeheadsdropdown from "../../StudentDropdowns/OtherFeeHeadsComponent/Otherfeeheadsdropdown"
 import { useState } from "react"
 import "./StudentInfo.css"
 
-const StudentInformation = () =>{
+const StudentIndivualInformation = () =>{
     const [openSection, setOpenSection] = useState({
     fee: false,
     pocketmoney: false,
@@ -26,7 +26,7 @@ const StudentInformation = () =>{
     }));
   };
     return(
-        <div>
+        <div className="student_information_dropdowns">
         <Feedetailsdropdown isOpen= {openSection.fee} onToggle={()=>toggleContent("fee")}/>
         <Pocketmoneydropdown isOpen= {openSection.pocketmoney} onToggle={()=>toggleContent("pocketmoney")}/>
         <Transportdetailsdropdown isOpen= {openSection.transport} onToggle={()=>toggleContent("transport")}/>
@@ -36,4 +36,4 @@ const StudentInformation = () =>{
     )
 }
 
-export default StudentInformation;
+export default StudentIndivualInformation;

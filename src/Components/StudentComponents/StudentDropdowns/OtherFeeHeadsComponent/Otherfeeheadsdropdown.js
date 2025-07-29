@@ -1,8 +1,10 @@
 import "./Otherfeeheadsdropdown.css"
-import InfoDropdown from "../../../Widgets/InfoDropdowns/InfoDropdown"
-import DropdownInformation from "../../../Widgets/DropdownsInformation/DropdownInformation"
-import fileicon from "../../../assets/fileicon"
+
+
+import fileicon from "../../../../assets/fileicon"
 import Otherfeeheadstatus from "./Otherfeeheadstatus"
+import InfoDropdown from "../../../../Widgets/InfoDropdown/InfoDropdown"
+import DropdownInformation from "../../../../Widgets/DropdownsInformation/DropdownInformation"
 
 const Otherfeeheadsdropdown = ({isOpen, onToggle}) =>{
     return(

@@ -1,6 +1,9 @@
 /* Container for the whole dropdown */
 .dropdown {
   width: 100%;
+  padding: 12px 0;
+  background-color: #FFF;
+  border-radius: 10px;
 }
 
 .dropdown_parent {
@@ -42,7 +45,7 @@
 }
 
 .dropdown_labels {
-  margin: 10px 16px 14px 16px;
+  margin: 10px 16px 0px 16px;
   display: flex;
   gap: 10px;
 }
@@ -104,11 +107,11 @@
   transform: rotate(180deg);
 }
 
+
 /* Optional: Dropdown variant styles */
 .student_main_dropdown {
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
+padding: 12px 0;
+  border-radius: 6px;
 }
 
 .student_main_dropdown .dropdown_labels {

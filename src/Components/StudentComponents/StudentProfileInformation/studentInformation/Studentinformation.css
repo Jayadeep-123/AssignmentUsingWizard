@@ -1,0 +1,25 @@
+.student_information_top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.student_module_icon_heading{
+  display: flex;
+  align-items: center;
+}
+
+.student_dropdown_top_heading h3{
+ margin: 0;
+ color: #393939;
+ font-size: 22px;
+ font-weight: 700;
+}
+
+.student_dropdown_top_heading p{
+  color: #575757;
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -30,7 +30,7 @@ const InfoDropdown = ({
           </div>
         </div>
       </div>
-      {isDropdownOpen && (
+      {!isDropdownOpen && (
         <div className="dropdown_labels">
           <p className="label1">{label1}</p>
           <p className="label2">{label2}</p>

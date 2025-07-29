@@ -1,0 +1,14 @@
+
+.LayoutLeftSecrtion{
+    width:75%;
+}
+.LayoutRightSection{
+    width:25%;
+    background-color: #fff;
+    padding: 0 8px;
+}
+.StudentLayout{
+    display: flex;
+     gap: 10px;
+}
+
